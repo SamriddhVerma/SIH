@@ -1,0 +1,55 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main {
+  margin: 0px;
+  padding: 0px;
+  background-image: url("recycle1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.producer {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: black;
+}
+
+.recycler {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: black;
+}
+
+.head a {
+
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.head a {
+  text-decoration: none;
+  color: unset;
+}
+
+.head {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
